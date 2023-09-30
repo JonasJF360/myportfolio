@@ -3,24 +3,48 @@
   "photo": "https://avatars.githubusercontent.com/u/48357110?v=4",
   "job": "Desenvolvedor de Sistemas Jr.",
   "location": {
-    "city": "Jaru - RO",
-    "cordenate": "https://maps.app.goo.gl/MLuPYzZdL8cMtgiD7"
+    "city": "Jaru / RO - Brasil",
+    "coordinates": "https://maps.app.goo.gl/MLuPYzZdL8cMtgiD7"
   },
   "phone": "(69) 99602-4107",
   "email": "contato.jonasjf@outlook.com.br",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/nodejs.png"
+        "name": "javascript",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/javascript.svg"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/java.png"
+        "name": "html5",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/html5.svg"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/angular.png"
+        "name": "css3",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/css3.svg"
+      },
+      {
+        "name": "python",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/python.svg"
+      },
+      {
+        "name": "java",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/java.svg"
+      },
+      {
+        "name": "git",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/git.svg"
+      },
+      {
+        "name": "node",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/node.svg"
+      },
+      {
+        "name": "typescript",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/typesctipt.svg"
+      },
+      {
+        "name": "c",
+        "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/assets/images/tools/c.svg"
       }
     ],
     "softSkills": [
