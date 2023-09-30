@@ -2,20 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     position: relative;
 }
 
-.header::after {
-    content: '';
-    display: inline-block;
+header::after {
+    content: " ";
     position: absolute;
-    top: 1rem;
+    display: block;
+    top: .5rem;
     right: 1rem;
     width: 2rem;
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/header.svg');
+    background-position: center;
+    background-image: url('../images/icons/header.svg');
+
 }
 
 .header .photo {
@@ -25,58 +28,69 @@
 }
 
 .header .title {
-    font-family: 'Neue Machina';
     text-align: center;
 }
 
-.information {
+.header .information {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
+    max-width: 100%;
 }
 
-.information p {
+.header .information p {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: .5rem;
-    font-size: 1.125rem;
+    align-items: flex;
+    margin: 0;
+    font-size: 1.25rem;
+    padding: .5rem;
 }
 
-.information p::before {
+.header .information p::before {
     content: '';
     display: inline-block;
     width: 1rem;
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     margin-right: .5rem;
 }
 
-.information .job::before {
-    background-image: url('../img/icons/job.svg');
+.header .information .job::before {
+    background-image: url('../images/icons/job.svg');
 }
 
-.information .location::before {
-    background-image: url('../img/icons/location.svg');
+.header .information .location::before {
+    background-image: url('../images/icons/location.svg');
 }
 
-.information .email::before {
-    background-image: url('../img/icons/email.svg');
+.header .information .phone::before {
+    background-image: url('../images/icons/phone.svg');
 }
 
-.information .phone::before {
-    background-image: url('../img/icons/phone.svg');
+.header .information .email::before {
+    background-image: url('../images/icons/email.svg');
+    margin-top: .2rem;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 768px) {
+
     .header {
         display: grid;
         grid-template-areas:
             "photo title"
-            "photo information"
-        ;
+            "photo information";
     }
 
     .header .photo {
@@ -87,7 +101,7 @@
     .header .title {
         grid-area: title;
         text-align: start;
-        max-width: 210px;
+        max-width: 230px;
     }
 
     .header .information {
