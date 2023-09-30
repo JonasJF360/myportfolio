@@ -1,8 +1,11 @@
 {
   "name": "Jonas J. Ferreira",
   "photo": "https://avatars.githubusercontent.com/u/48357110?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "Jaru - RO",
+  "job": "Desenvolvedor de Sistemas Jr.",
+  "location": {
+    "city": "Jaru - RO",
+    "cordenate": "https://maps.app.goo.gl/MLuPYzZdL8cMtgiD7"
+  },
   "phone": "(69) 99602-4107",
   "email": "contato.jonasjf@outlook.com.br",
   "skills": {
