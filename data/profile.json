@@ -148,7 +148,11 @@
         }
     ],
     "myCourses": [
-        
+        {
+            "name": "Publicando Seu Portfólio Profissional no GitHub Pages | DIO",
+            "hours": "3 horas",
+            "certificate": "https://www.dio.me/certificate/270CCDD8"
+        },
         {
             "name": "Aprenda a Programar do Zero com JavaScript | DIO",
             "hours": "15 horas",
