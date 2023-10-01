@@ -32,39 +32,39 @@
         "hardSkills": [
             {
                 "name": "javascript",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/javascript.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/javascript.svg"
             },
             {
                 "name": "html5",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/html5.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/html5.svg"
             },
             {
                 "name": "css3",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/css3.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/css3.svg"
             },
             {
                 "name": "python",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/python.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/python.svg"
             },
             {
                 "name": "java",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/java.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/java.svg"
             },
             {
                 "name": "git",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/git.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/git.svg"
             },
             {
                 "name": "node",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/node.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/node.svg"
             },
             {
                 "name": "typescript",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/typesctipt.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/typesctipt.svg"
             },
             {
                 "name": "c",
-                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/white/c.svg"
+                "logo": "https://raw.githubusercontent.com/JonasJF360/myportfolio/main/data/imgs/c.svg"
             }
         ],
         "softSkills": [
