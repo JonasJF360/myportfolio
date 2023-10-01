@@ -1,4 +1,4 @@
-.experiences {
+.experience {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -6,20 +6,20 @@
     list-style: none;
 }
 
-.experiences li {
+.experience li {
     margin: .5rem 1rem;
 }
 
-.experiences .title,
-.experiences .period {
+.experience .title,
+.experience .period {
     margin-bottom: .5rem;
 }
 
-.experiences .title {
+.experience .title {
     font-size: 1.3rem;
 }
 
-.experiences .period {
+.experience .period {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -27,7 +27,7 @@
     font-style: italic;
 }
 
-.experiences .period::before {
+.experience .period::before {
     content: "";
     display: block;
     width: 1.25rem;
@@ -39,6 +39,6 @@
     background-image: url('../images/icons/calendar.svg');
 }
 
-.experiences p {
+.experience p {
     text-align: justify;
 }

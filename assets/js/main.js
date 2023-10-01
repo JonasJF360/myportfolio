@@ -1,4 +1,3 @@
-
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -11,25 +10,37 @@ function updateProfileInfo(profileData) {
     job.innerText = profileData.job
 
     const location = document.getElementById('profile.location')
-    location.innerText = profileData.location
+    location.innerText = profileData.location.city
+    location.href = profileData.location.coordinates
 
     const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
     phone.href = `tel:${profileData.phone}`
 
     const email = document.getElementById('profile.email')
-    email.innerText = profileData.email
+    email.innerHTML = profileData.email.replace('@', '@<wbr>').replace('.com', '<wbr>.com')
     email.href = `mailto:${profileData.email}`
 }
 
-function updateSoftSkills(profileData) {
-    const softSkills = document.getElementById('profile.skills.softSkills')
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+function updatePersonalNetworks(profileData) {
+    const personalNetworks = document.getElementById('profile.personal.networks')
+    personalNetworks.innerHTML = profileData.personal.networks.map(net => `<li><a href="${net.url}" target="_blank"><img src="${net.icon}" alt="${net.name}" title="${net.name}"></li>`).join('')
+}
+
+function updatePersonalContents(profileData) {
+    const personalContents = document.getElementById('profile.personal.content')
+    personalContents.innerHTML = profileData.personal.contents.map(skill =>
+        `<p>${skill}</p>`).join('')
 }
 
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+}
+
+function updateSoftSkills(profileData) {
+    const softSkills = document.getElementById('profile.skills.softSkills')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
 
 function updateLanguages(profileData) {
@@ -42,7 +53,7 @@ function updatePortfolio(profileData) {
     portfolio.innerHTML = profileData.portfolio.map(project => {
         return `
             <li>
-                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <h3 ${project.github ? 'class="title github"' : 'class="title"'}>${project.name}</h3>
                 <a href="${project.url}" target="_blank">${project.url}</a>
             </li>
         `
@@ -65,6 +76,8 @@ function updateProfessionalExperience(profileData) {
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
+    updatePersonalNetworks(profileData)
+    updatePersonalContents(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
