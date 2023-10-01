@@ -146,5 +146,53 @@
             "period": "Jun 2010 - Jul 2012",
             "description": "Participar ativamente com toda a equipe na embalagem dos produtos."
         }
+    ],
+    "myCourses": [
+        
+        {
+            "name": "Aprenda a Programar do Zero com JavaScript | DIO",
+            "hours": "15 horas",
+            "certificate": "https://www.dio.me/certificate/0094C87B"
+        },
+        {
+            "name": "JavaScript para Web: Fundamentos de HTML, CSS e APIs na Prática | DIO",
+            "hours": "9 horas",
+            "certificate": "https://www.dio.me/certificate/F132CE25"
+        },
+        {
+            "name": "Dominando Conceitos Avançados em JavaScript | DIO",
+            "hours": "6 horas",
+            "certificate": "https://www.dio.me/certificate/E4D5CE97"
+        },
+        {
+            "name": "Dominando o Protocolo HTTP e Integrando com a PokeAPI | DIO",
+            "hours": "4 horas",
+            "certificate": "https://www.dio.me/certificate/5DFF0E54"
+        },
+        {
+            "name": "Aprenda o que são Estrutura de Dados e Algoritmos | DIO",
+            "hours": "2 horas",
+            "certificate": "https://www.dio.me/certificate/049190DF"
+        },
+        {
+            "name": "Projetos ágeis com SCRUM | DIO",
+            "hours": "2 horas",
+            "certificate": "https://www.dio.me/certificate/A4EA7FE9"
+        },
+        {
+            "name": "Introdução ao Git e ao GitHub | DIO",
+            "hours": "5 horas",
+            "certificate": "https://www.dio.me/certificate/999E026B"
+        },
+        {
+            "name": "Programação para internet com JavaScript | DIO",
+            "hours": "2 horas",
+            "certificate": "https://www.dio.me/certificate/072CA84A"
+        },
+        {
+            "name": "Introdução à programação com Python | DIO",
+            "hours": "8 horas",
+            "certificate": "https://www.dio.me/certificate/17EF6939"
+        }
     ]
 }

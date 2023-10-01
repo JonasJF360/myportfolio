@@ -73,6 +73,19 @@ function updateProfessionalExperience(profileData) {
     }).join('')
 }
 
+function updateCourses(profileData) {
+    const Courses = document.getElementById('profile.courses')
+    Courses.innerHTML = profileData.myCourses.map(course => {
+        return `
+            <li>
+                <h3 class="title">${course.name}</h3>
+                <p class="hours"> Carga horária: ${course.hours}</p>
+                <a href="${course.certificate}" target="_blank">${course.certificate}</a>
+            </li>
+        `
+    }).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
@@ -83,4 +96,5 @@ function updateProfessionalExperience(profileData) {
     updateLanguages(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
+    updateCourses(profileData)
 })()

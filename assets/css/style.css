@@ -413,6 +413,7 @@ a:hover {
 .portfolio li .title::before {
   content: "";
   display: block;
+  min-width: 1.25rem;
   width: 1.25rem;
   height: 1.25rem;
   margin-right: 0.5rem;
@@ -467,6 +468,7 @@ a:hover {
 .experience .period::before {
   content: "";
   display: block;
+  min-width: 1.25rem;
   width: 1.25rem;
   height: 1.25rem;
   margin-right: 0.5rem;
@@ -478,6 +480,49 @@ a:hover {
 
 .experience p {
   text-align: justify;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.courses li {
+  margin: 0.5rem 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.courses .title,
+.courses .hours {
+  margin-bottom: 0.5rem;
+}
+
+.courses .title {
+  font-size: 1.3rem;
+}
+
+.courses .hours {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courses .hours::before {
+  content: "";
+  display: block;
+  min-width: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../images/icons/clock.svg");
 }
 
 /*# sourceMappingURL=style.css.map */

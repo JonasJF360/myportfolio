@@ -1,4 +1,4 @@
-.experience {
+.courses {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -7,10 +7,11 @@
 
     li {
         margin: .5rem 1rem;
+        margin-bottom: .8rem;
     }
 
     .title,
-    .period {
+    .hours {
         margin-bottom: .5rem;
     }
 
@@ -18,7 +19,7 @@
         font-size: 1.3rem;
     }
 
-    .period {
+    .hours {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -35,11 +36,8 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
-            background-image: url('../images/icons/calendar.svg');
+            background-image: url('../images/icons/clock.svg');
         }
     }
 
-    p {
-        text-align: justify;
-    }
 }
