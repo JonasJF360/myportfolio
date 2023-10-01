@@ -1,0 +1,44 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin: .5rem 1rem;
+    }
+
+    .title,
+    .period {
+        margin-bottom: .5rem;
+    }
+
+    .title {
+        font-size: 1.3rem;
+    }
+
+    .period {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        font-weight: 400;
+        font-style: italic;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-right: .5rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-image: url('../images/icons/calendar.svg');
+        }
+    }
+
+    p {
+        text-align: justify;
+    }
+}

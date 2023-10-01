@@ -1,0 +1,78 @@
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    border: 1px solid $cor-branco;
+    border-radius: 1rem;
+    transition: .25s;
+
+    * {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    &.open,
+    &:hover {
+        background-color: $cor-roxo-2;
+        border-color: $cor-roxo-1;
+    }
+
+    .trigger {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: transparent;
+        border: none;
+        text-align: start;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $cor-branco;
+        position: relative;
+
+        h2 {
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            top: 1.2rem;
+            right: 1.5rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-image: url('../images/icons/arrow.svg');
+            transition: .25s;
+        }
+
+    }
+
+    .content {
+        overflow: hidden;
+        height: 0;
+        opacity: 0;
+        transition: opacity .5s ease-in-out;
+    }
+
+    &.open {
+        .trigger::after {
+            transform: rotate(180deg);
+        }
+
+        .content {
+            display: block;
+            padding: 0 1rem 1rem 1rem;
+            height: auto;
+            opacity: 1;
+        }
+    }
+}

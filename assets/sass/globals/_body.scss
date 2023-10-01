@@ -1,0 +1,59 @@
+
+@mixin margin-max-height {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body {
+    padding: 0;
+    background-color: $cor-preto;
+    background-image:
+        linear-gradient(145deg,
+            $cor-azul-1 0%, $cor-azul-2 15%, $cor-azul-3 20%,
+            $cor-roxo-3 30%, $cor-roxo-3 70%,
+            $cor-azul-3 80%, $cor-azul-2 85%, $cor-azul-1 100%);
+    font-family: 'Open Sans', sans-serif;
+    color: $cor-branco;
+    @include margin-max-height;
+
+    .page {
+        @include margin-max-height;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Naue Machina';
+}
+
+a {
+    color: inherit;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    backdrop-filter: blur(4.625rem);
+
+    .main {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid $cor-branco;
+        border-radius: 1rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 900px;
+    }
+}

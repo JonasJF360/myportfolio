@@ -11,9 +11,11 @@
     - Arrow Function;
     - Map;
     - Etc...
-- **HTML 5;**
+- **HTML 5:**
     - Boas práticas na semantica.
-- **CSS 3;**
+- **CSS 3:**
     - Flex box;
     - Grid;
     - Media Query.
+- **SASS:**
+    - Usado para facilitar a manipulação do CSS.
