@@ -149,9 +149,9 @@
     ],
     "myCourses": [
         {
-            "name": "Publicando Seu Portfólio Profissional no GitHub Pages | DIO",
-            "hours": "3 horas",
-            "certificate": "https://www.dio.me/certificate/270CCDD8"
+            "name": "Formação JavaScript Developer | DIO",
+            "hours": "39 horas",
+            "certificate": "https://www.dio.me/certificate/BD5B394E"
         },
         {
             "name": "Aprenda a Programar do Zero com JavaScript | DIO",
@@ -189,14 +189,14 @@
             "certificate": "https://www.dio.me/certificate/999E026B"
         },
         {
-            "name": "Programação para internet com JavaScript | DIO",
-            "hours": "2 horas",
-            "certificate": "https://www.dio.me/certificate/072CA84A"
-        },
-        {
             "name": "Introdução à programação com Python | DIO",
             "hours": "8 horas",
             "certificate": "https://www.dio.me/certificate/17EF6939"
+        },
+        {
+            "name": "Interface Gráfica para Apps Python com GTK e Glade | Udemy",
+            "hours": "5.5 horas",
+            "certificate": "https://www.udemy.com/certificate/UC-03972486-0112-4de0-a944-453915613840/"
         }
     ]
 }
