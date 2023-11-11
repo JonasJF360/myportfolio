@@ -149,6 +149,11 @@
     ],
     "myCourses": [
         {
+            "name": "Potência Tech iFood - Programação do Zero | DIO",
+            "hours": "68 horas",
+            "certificate": "https://www.dio.me/certificate/BC9FB8CC"
+        },
+        {
             "name": "Formação JavaScript Developer | DIO",
             "hours": "39 horas",
             "certificate": "https://www.dio.me/certificate/BD5B394E"
