@@ -86,6 +86,8 @@ function updateCourses(profileData) {
     }).join('')
 }
 
+// This immediately invoked asynchronous function expression (IIFE) fetches profile data using the fetchProfileData function,
+// and then updates various parts of the profile using the fetched data. It calls different update functions with the profileData as an argument.
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
