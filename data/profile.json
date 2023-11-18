@@ -122,7 +122,7 @@
     ],
     "professionalExperience": [
         {
-            "name": "Vendedor Interno | Implemac - Jaru, RO",
+            "name": "Vendedor Interno | Implemaq - Hilgert & Cia - Jaru, RO",
             "period": "Ago 2023 - até o momento.",
             "description": "Vendedor interno no comércio de máquinas e equipamentos para o agronegócio e urbano."
         },
@@ -148,6 +148,11 @@
         }
     ],
     "myCourses": [
+        {
+            "name": "Formação Lógica de Programação | DIO",
+            "hours": "41 horas",
+            "certificate": "https://www.dio.me/certificate/F7FC069E"
+        },
         {
             "name": "Potência Tech iFood - Programação do Zero | DIO",
             "hours": "68 horas",
@@ -177,11 +182,6 @@
             "name": "Dominando o Protocolo HTTP e Integrando com a PokeAPI | DIO",
             "hours": "4 horas",
             "certificate": "https://www.dio.me/certificate/5DFF0E54"
-        },
-        {
-            "name": "Aprenda o que são Estrutura de Dados e Algoritmos | DIO",
-            "hours": "2 horas",
-            "certificate": "https://www.dio.me/certificate/049190DF"
         },
         {
             "name": "Projetos ágeis com SCRUM | DIO",
